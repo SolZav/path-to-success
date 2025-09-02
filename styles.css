@@ -85,10 +85,6 @@ header{
     padding-top: 1rem;
 }
 
-main{
-    padding: 1.5rem;
-}
-
 h1, h2{
     font-family: var(--header-font);
     color: var(--white);
@@ -119,7 +115,7 @@ h3{
 
 h4{
     font-size: 1.15em;
-    color: var(--lavender);
+    color: var(--purple);
     font-weight: bold;
 }
 
@@ -138,9 +134,67 @@ nav li{
     margin: 0.5rem 1rem;
     padding: 1rem;
 }
+
 nav a{
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
     color: var(--purple);
+}
+
+section#our-services{
+    padding: 0.8rem;
+    line-height: 1.8rem;
+}
+
+section.services{
+    background-color: var(--white);
+    border-radius: 6px;
+    margin: 0.8rem;
+    padding: 1rem;    
+}
+
+.services > img{
+    padding: 1rem 0;
+}
+
+section#why-us{
+    background-color: var(--pink);
+    margin: 0;
+    padding: 1rem;
+}
+
+#why-us ul{
+    display: flex;
+}
+
+section#pricing{
+    padding: 0.8rem;
+    line-height: 2.5rem;
+}
+
+table{
+    border: 1px solid var(--yellow);
+    background-color: var(--white);
+    margin: 0 auto;
+}
+
+th{
+    background-color: var(--yellow);  
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;  
+    padding: 0.5rem;
+}
+
+td{
+    text-align: center;
+    border: 1.5px solid var(--yellow);
+    padding: 0.6rem 1rem;
+}
+
+section#first-step{
+    background-color: var(--pink);
+    margin: 0;
+    padding: 1rem;
 }
