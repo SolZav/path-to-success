@@ -165,7 +165,7 @@ section#why-us{
 }
 
 #why-us ul{
-    display: flex;
+    display: grid;
 }
 
 section#pricing{
@@ -197,4 +197,40 @@ section#first-step{
     background-color: var(--pink);
     margin: 0;
     padding: 1rem;
+    line-height: 1.5rem;
+    color: var(--white);
+}
+
+#first-step > p{
+    padding-top: 1rem;
+}
+
+#first-step :nth-child(3){
+    text-align: center;
+}
+
+#first-step p > a{
+    text-decoration: none;
+    color: var(--dark-gray);
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: var(--white);
+    border-radius: 6px;
+    padding: 0.5rem 5rem;
+    box-shadow: 7px 3px 3px;
+}
+
+footer{
+    padding: 2rem;
+}
+
+footer > p{
+    display: inline;
+    color: var(--white);
+    text-align: left;
+    padding: 12px;
+}
+
+footer p > a{
+    color: var(--white);
 }
