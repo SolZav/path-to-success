@@ -53,3 +53,26 @@ table {
 	border-spacing: 0;
 }
 
+/*ROOT VARIABLES*/
+:root{
+    --header-font: Kavoon, Verdana, sans-serif;
+    --body-font: Inter, Arial, sans-serif;
+    
+    --teal: #4CA7C0;
+    --purple: #484FB7;
+    --lavender: #6B8FE7;
+    --yellow: #E9BB57;
+    --pink: #D9526F;
+    --dark-gray: #1E1E1E;
+    --white: #ffffff;  
+}
+
+/*GLOBAL STYLES (mobil first/small)*/
+body{
+    color: var(--dark-gray);
+    background: var(--lavender);
+    font-family: var(--body-font);
+    max-width: 450px;
+    margin: 0 auto;
+}
+
